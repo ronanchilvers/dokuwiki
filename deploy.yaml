@@ -1,6 +1,13 @@
 ---
 shared:
   folders:
+    - data
+    - lib/plugins
+    - lib/tpl
+    - conf
+writables:
+  paths:
+    - data
     - data/attic
     - data/cache
     - data/index
@@ -12,15 +19,6 @@ shared:
     - data/meta
     - data/pages
     - data/tmp
-    - data
-    - lib/plugins
-    - lib/tpl
-    - conf
-writables:
-  paths:
-    - data
-    - data/tmp
-    - data/pages
     - lib/plugins
     - lib/tpl
     - conf
