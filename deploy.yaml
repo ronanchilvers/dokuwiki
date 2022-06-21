@@ -1,6 +1,17 @@
 ---
 shared:
   folders:
+    - data/attic
+    - data/cache
+    - data/index
+    - data/locks
+    - data/log
+    - data/media
+    - data/media_attic
+    - data/media_meta
+    - data/meta
+    - data/pages
+    - data/tmp
     - data
     - lib/plugins
     - lib/tpl
@@ -9,6 +20,7 @@ writables:
   paths:
     - data
     - data/tmp
+    - data/pages
     - lib/plugins
     - lib/tpl
     - conf
