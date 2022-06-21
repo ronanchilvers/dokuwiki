@@ -22,3 +22,10 @@ writables:
     - lib/plugins
     - lib/tpl
     - conf
+clear_paths:
+  paths:
+    - install.php
+    - COPYING
+    - README
+    - SECURITY.md
+    - deploy.yaml
