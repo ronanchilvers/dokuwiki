@@ -6,6 +6,7 @@ shared:
     - lib/tpl
     - conf
 writables:
+  paths:
     - data
     - data/tmp
     - lib/plugins
