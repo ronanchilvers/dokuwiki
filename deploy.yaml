@@ -2,7 +2,6 @@
 shared:
   folders:
     - data
-    - data/tmp
     - lib/plugins
     - lib/tpl
   files:
