@@ -1,1 +1,13 @@
 ---
+shared:
+  folders:
+    - data
+    - data/tmp
+    - lib/plugins
+    - lib/tpl
+  files:
+    - conf/local.php
+    - conf/users.auth.php
+    - conf/acl.auth.php
+    - conf/plugins.local.php
+    - conf/plugins.local.php.bak
