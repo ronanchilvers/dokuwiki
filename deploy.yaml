@@ -1,0 +1,31 @@
+---
+shared:
+  folders:
+    - data
+    - lib/plugins
+    - lib/tpl
+    - conf
+writables:
+  paths:
+    - data
+    - data/attic
+    - data/cache
+    - data/index
+    - data/locks
+    - data/log
+    - data/media
+    - data/media_attic
+    - data/media_meta
+    - data/meta
+    - data/pages
+    - data/tmp
+    - lib/plugins
+    - lib/tpl
+    - conf
+clear_paths:
+  paths:
+    - install.php
+    - COPYING
+    - README
+    - SECURITY.md
+    - deploy.yaml
